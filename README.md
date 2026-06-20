@@ -15,12 +15,12 @@ taxes split across lines — it's hard to know what each person actually owes.
 
 Most "bill analyzer" tools send your PDF to a server or an AI. **This one does not.**
 
-- ✅ Runs 100% on your own computer
-- ✅ No AI, no LLM, no API calls
-- ✅ No data sent to any website or server
-- ✅ Your bill PDF never leaves your machine
-- ✅ Works offline — no internet needed after install
-- ✅ Open source — you can read every line of code and verify this yourself
+-  Runs 100% on your own computer
+-  No AI, no LLM, no API calls
+-  No data sent to any website or server
+-  Your bill PDF never leaves your machine
+-  Works offline — no internet needed after install
+-  Open source — you can read every line of code and verify this yourself
 
 The code is split into small, readable files. If you want to confirm no data is sent
 anywhere, open `extractor.py` — it reads your PDF locally using `pdfplumber`, a
